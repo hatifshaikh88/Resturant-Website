@@ -80,18 +80,6 @@ body {
   background-color: #d62839;
 }
 
-/* Dark Mode Toggle */
-/* .dark-toggle {
-  font-size: 1.4rem;
-  cursor: pointer;
-  margin-left: 15px;
-  transition: transform 0.3s ease;
-}
-
-.dark-toggle:hover {
-  transform: rotate(15deg);
-} */
-
 /* Hamburger Menu (Hidden by Default) */
 .hamburger {
   display: none;
@@ -1276,4 +1264,8 @@ body.dark .review-card h3 {
 
 .review-card.visible {
   animation: fadeInUp 0.8s ease forwards;
+}
+
+.dark-toggle {
+    cursor: pointer;
 }
